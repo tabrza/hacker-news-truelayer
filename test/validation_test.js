@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-const { validateString, validateUri, validateInteger, validateInput } = require('./validation');
+const { validateString, validateUri, validateInteger, validateInput } = require('../validation');
 
 
 describe('validateString()', function () {

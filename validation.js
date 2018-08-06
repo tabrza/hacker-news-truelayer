@@ -24,11 +24,16 @@ const validateInteger = int => {
   return int;
 };
 
+// check cmd line input
 const validateInput = arr => {
   let printNo = parseInt(arr[2]);
+
+  // to avoid process exit when running npm test 
+  if (arr.length== 0) return arr;
+
   if(arr[0] != 'hackernews') {
     console.log(`Please spell "hackernews" correctly. You spelled it as: ${arr[0]}`);
-    process.exit();
+    // process.exit();
   };
 
   if(arr[1] != '--post') {
