@@ -3,7 +3,7 @@ Command line challenge from TrueLayer to output top posts from Hackers News in a
 
 ### Installation
 ```
-npm init
+npm install
 ```
 
 ### Run
