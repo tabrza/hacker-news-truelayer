@@ -19,14 +19,14 @@ npm test
 
 ### Libraries
 - request: an easy, clean way to make http calls
-- request-promise: in sync with the above but comes with promise support
+- request-promise: builds on the above but comes with promise support
 - mocha: testing framework for node. Easy to use, provides accurate reporting and a large community to support it.
 - chai: an assertion library to help verify results. Has great documentation
 
 ### Points for improvement
 While I feel I managed to hit all the requirements, my testing could be improved upon mainly with server calls and handling promises.
 
-*____________________________________________________________________________________________________________________________________________________________________**
+*_______________________________________________________________________________________________________________________*
 
 # Hacker News Scraper
 
